@@ -78,7 +78,7 @@ public struct HalfASheet<Content: View>: View {
                             content()
                                 .padding(actualContentInsets)
                             
-                            titleView
+//                            titleView
                         }
                         .frame(height: height.value(with: geometry) + cornerRadius + additionalOffset)
                         .offset(y: cornerRadius + additionalOffset + dragOffset)
